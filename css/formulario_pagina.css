@@ -1,0 +1,25 @@
+/*Formulario Pagina Web Style
+Mariana Mejia Rivas*/
+
+body{background-color: #FFCAE1;
+}
+
+h3 {font-family: Roboto, sans-serif;
+  color: #FF006F;}
+
+p {font-family: Trebuchet MS;
+  color: black;
+  font-size: 17px;}
+
+h5 {font-family: Trebuchet MS;
+  color: black;
+  font-size: 17px;
+}
+
+input[type="text"]:focus {
+  background-color: #E4B5FF;
+}
+
+select[type="text"]:focus {
+  background-color: #E4B5FF;
+}

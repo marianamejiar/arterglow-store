@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="file:///E:/Pagina%20Web/paginas/PaginaWeb.html">
+<head>
+  <meta charset="utf-8" />
+  <title>Formulario de la Pagina Web</title>
+  <link href="../css/formulario_pagina.css" rel="stylesheet">
+</head>
+<body>
+  <div align="center">
+  <h3>Formulario de "Afterglow Store"</h3>
+  </div>
+  <p>¡Hola! Ayudanos a completar este formulario para mejorar nuestra tienda en linea</p>
+  <!--metodo de enviar informacion y la ubicacion-->
+  <!--post el usuario no vera los datos depues de enviar los datos (tranparente)-->
+
+<form method="post" action="file:///E:/Pagina%20Web/paginas/PaginaWeb.html">
+
+  <!--inserta un campo de texto-->
+  <p><label> Nombre completo:
+    <input name="nombre" type="text" name="redirigir" size"25">
+  </label>
+  </p>
+  <!--inserta un password-->
+  <!--cuadro enmascarado-->
+<p><label>Correo electronico:
+  <input name="email" type="text" size="25">
+</label>
+</p>
+<p><label>Numero telef&oacutenico:
+  <input name="numero" type="text" size="25">
+</label>
+</p>
+<p>
+  Que es lo que mas te gusta de nuestra mercancia:
+  <br>
+  <label> Calidad:
+    <input name="Cosas que te gustaron" type="radio" value="Calidad">
+  </label>
+  <label> Precio:
+    <input name="Cosas que te gustaron" type="radio" value="Precio">
+  </label>
+  <label> Diseño:
+    <input name="Cosas que te gustaron" type="radio" value="Diseño">
+  </label>
+  <label> Otro:
+    <input name="Cosas que te gustaron" type="radio" value="Otro">
+  </label>
+</p>
+<p>
+  Que es lo que mas te gusto de nuestro sitio web: <br>
+  <label> Diseño del sitio:
+    <input name="Cosas que te gustaron" type="checkbox" value="Diseño">
+  </label>
+  <label> Facilidad de uso:
+    <input name="Cosas que te gustaron" type="checkbox" value="Facilidad">
+  </label>
+  <label> Imagenes:
+    <input name="Cosas que te gustaron" type="checkbox" value="Imagenes">
+  </label>
+  <label> Codigo fuente:
+    <input name="Cosas que te gustaron" type="checkbox" value="Codigo">
+  </label>
+</p>
+<p>
+  <label> Como encontraste nuestra tienda en l&iacutenea:
+  <!-- <select> presenta una lista -->
+  <!-- con opciones desplegable con opciones indicadas por las etiquetas <option> -->
+  <select name="Encontrar" type="text">
+    <option> Me la recomendaron </option>
+    <option> En redes sociales </option>
+    <option> La encontre en internet </option>
+    <option> Otro </option>
+  </select>
+</label>
+</p>
+<p>
+  <label> Como ha sido tu experiencia al comprar nuestra mercancia:
+  <!-- <select> presenta una lista -->
+  <!-- con opciones desplegable con opciones indicadas por las etiquetas <option> -->
+  <select name="Calificacion" type="text">
+    <option> Exelente </option>
+    <option> Muy buena </option>
+    <option> Buena </option>
+    <option> Regular </option>
+    <option> Mala </option>
+  </select>
+</label>
+</p>
+<p>
+  <label> Califique nuestro sitio web:
+  <!-- <select> presenta una lista -->
+  <!-- con opciones desplegable con opciones indicadas por las etiquetas <option> -->
+  <select name="Calificacion" type="text">
+    <option> Exelente </option>
+    <option> Muy bueno </option>
+    <option> Bueno </option>
+    <option> Regular </option>
+    <option> Malo </option>
+  </select>
+</label>
+</p>
+<!--textarea. Crea un elemento de multilinea-->
+<p><label>Comentarios: <br>
+  <textarea name="campocom" rows="4" cols="36">Escriba aqu&iacute</textarea>
+  </label>
+</p>
+<p>
+  <input type="submit" value="enviar">
+  <input type="reset" value="borrar">
+</p>
+</form>
+</body>
+</html>
